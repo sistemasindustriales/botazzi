@@ -1,0 +1,16 @@
+{
+  "id": "org.torreintio.static",
+  "version": "1.0.0",
+  "name": "Series Torreintio Estático",
+  "description": "Addon estático para series con IMDb, sin Node.js",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["series"],
+  "idPrefixes": ["tt"],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "torreintio-catalog",
+      "name": "Series Torreintio"
+    }
+  ]
+}

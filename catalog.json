@@ -1,0 +1,43 @@
+{
+  "metas": [
+    {
+      "id": "tt0944947",
+      "type": "series",
+      "name": "Game of Thrones",
+      "poster": "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+      "description": "Nine noble families fight for control over the lands of Westeros...",
+      "genres": ["Drama", "Fantasy", "Adventure"],
+      "year": 2011,
+      "videos": [
+        {
+          "id": "s01e01",
+          "season": 1,
+          "episode": 1,
+          "name": "Winter Is Coming",
+          "released": "2011-04-17",
+          "streams": [
+            {
+              "title": "1080p",
+              "url": "https://tudominio.com/GoT/S01E01/index.m3u8",
+              "type": "hls"
+            }
+          ]
+        },
+        {
+          "id": "s01e02",
+          "season": 1,
+          "episode": 2,
+          "name": "The Kingsroad",
+          "released": "2011-04-24",
+          "streams": [
+            {
+              "title": "1080p",
+              "url": "https://tudominio.com/GoT/S01E02/index.m3u8",
+              "type": "hls"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
