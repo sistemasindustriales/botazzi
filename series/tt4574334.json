@@ -1,10 +1,14 @@
 {
   "meta": {
-    "type": "series",
     "id": "tt4574334",
+    "type": "series",
     "name": "Stranger Things",
     "genres": ["Drama", "Fantasy", "Horror"],
-    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg"
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
+    "posterShape": "poster",
+    "background": "https://image.tmdb.org/t/p/original/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+    "logo": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+    "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl."
   },
   "streams": [
     {

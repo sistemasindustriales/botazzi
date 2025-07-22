@@ -1,19 +1,17 @@
-addEventListener("fetch", event => {
-  event.respondWith(handleRequest(event.request))
-})
+const express = require('express');
+const serverless = require('./serverless');
 
-async function handleRequest(request) {
-  const url = new URL(request.url)
-  const pathname = url.pathname
+const app = express();
 
-  if (pathname.startsWith("/stream/")) {
-    const parts = pathname.split("/")
-    const idRaw = parts.pop()
-    const id = idRaw.replace(/:/g, "__")
+// Middleware para logs
+app.use((req, res, next) => {
+  console.log(`${new Date().toISOString()} - ${req.method} ${req.url}`);
+  next();
+});
 
-    const jsonUrl = `/streams/${id}.json`
-    return fetch(jsonUrl)
-  }
+app.use(serverless);
 
-  return new Response("Addon activo", { status: 200 })
-}
+const PORT = process.env.PORT || 7000;
+app.listen(PORT, () => {
+  console.log(`Addon running on http://localhost:${PORT}`);
+});
