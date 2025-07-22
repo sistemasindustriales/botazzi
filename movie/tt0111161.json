@@ -1,0 +1,14 @@
+{
+  "streams": [
+    {
+      "title": "1080p HLS",
+      "url": "https://guileless-alpaca-52f781.netlify.app/demo.m3u8",
+      "type": "hls"
+    },
+    {
+      "title": "720p MP4",
+      "url": "https://tusuario.github.io/repo/videos/elpadrino.mp4",
+      "type": "other"
+    }
+  ]
+}
