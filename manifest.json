@@ -1,0 +1,11 @@
+{
+  "id": "org.stremio.gotaddon",
+  "version": "1.0.0",
+  "name": "Game of Thrones Addon",
+  "description": "Addon de ejemplo para Game of Thrones usando GitHub Pages",
+  "resources": ["stream"],
+  "types": ["series"],
+  "idPrefixes": ["tt"],
+  "catalogs": [],
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"
+}
