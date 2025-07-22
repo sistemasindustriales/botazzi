@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "seriesmax002",
+    "type": "series",
+    "name": "Otra Serie",
+    "poster": "https://via.placeholder.com/150x220.png?text=Otra+Serie",
+    "description": "Otra historia hecha a mano para Stremio.",
+    "releaseInfo": "2023",
+    "videos": [
+      { "season": 1, "episode": 1, "title": "Capítulo Uno" },
+      { "season": 1, "episode": 2, "title": "Capítulo Dos" }
+    ]
+  }
+}

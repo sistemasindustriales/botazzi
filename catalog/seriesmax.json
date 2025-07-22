@@ -1,0 +1,22 @@
+{
+  "metas": [
+    {
+      "id": "seriesmax001",
+      "type": "series",
+      "name": "Mi Serie Favorita",
+      "poster": "https://via.placeholder.com/150x220.png?text=Mi+Serie",
+      "background": "https://via.placeholder.com/640x360.png?text=Fondo",
+      "description": "Una serie completamente personalizada desde GitHub Pages.",
+      "genres": ["Drama", "Acción"],
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "seriesmax002",
+      "type": "series",
+      "name": "Otra Serie",
+      "poster": "https://via.placeholder.com/150x220.png?text=Otra+Serie",
+      "description": "Otra historia hecha a mano para Stremio.",
+      "releaseInfo": "2023"
+    }
+  ]
+}

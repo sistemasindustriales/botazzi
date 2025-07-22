@@ -1,0 +1,16 @@
+{
+  "id": "org.stremio.seriesmax",
+  "version": "1.0.0",
+  "name": "SERIES MAX",
+  "description": "Tu catálogo personalizado de series",
+  "resources": [
+    { "name": "catalog", "types": ["series"], "id": "seriesmax" },
+    { "name": "meta", "types": ["series"] },
+    { "name": "stream", "types": ["series"] }
+  ],
+  "types": ["series"],
+  "catalogs": [
+    { "type": "series", "id": "seriesmax", "name": "SERIES MAX" }
+  ],
+  "idPrefixes": ["seriesmax"]
+}

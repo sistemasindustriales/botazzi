@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "seriesmax001",
+    "type": "series",
+    "name": "Mi Serie Favorita",
+    "poster": "https://via.placeholder.com/150x220.png?text=Mi+Serie",
+    "background": "https://via.placeholder.com/640x360.png?text=Fondo",
+    "description": "Una serie completamente personalizada desde GitHub Pages.",
+    "genres": ["Drama", "Acción"],
+    "releaseInfo": "2024",
+    "videos": [
+      { "season": 1, "episode": 1, "title": "Episodio 1" },
+      { "season": 1, "episode": 2, "title": "Episodio 2" }
+    ]
+  }
+}
