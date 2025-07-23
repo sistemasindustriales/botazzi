@@ -1,0 +1,11 @@
+{
+  "metas": [
+    {
+      "id": "tt1234567",
+      "type": "series",
+      "name": "Vacaciones en NY",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/7/70/Vacation_Poster.jpg",
+      "description": "Una divertida serie sobre unas vacaciones inolvidables en Nueva York."
+    }
+  ]
+}

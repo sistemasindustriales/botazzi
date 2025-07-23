@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "id": "tt1234567",
+    "type": "series",
+    "name": "Vacaciones en NY",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/7/70/Vacation_Poster.jpg",
+    "description": "Una divertida serie sobre unas vacaciones inolvidables en Nueva York.",
+    "videos": [
+      {
+        "id": "tt1234567_s01e01",
+        "season": 1,
+        "episode": 1,
+        "title": "Capítulo 1",
+        "released": "2024-01-01"
+      }
+    ]
+  }
+}

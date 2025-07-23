@@ -1,0 +1,10 @@
+{
+  "id": "com.fabian.seriesmax",
+  "version": "1.0.0",
+  "name": "Series Max",
+  "description": "Series personalizadas",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["series"],
+  "catalogs": [{ "type": "series", "id": "seriesmax" }],
+  "idPrefixes": ["tt"]
+}
